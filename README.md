@@ -15,3 +15,4 @@ MainWindow.xaml - содержит кнопки для переключения 
 
 Practice11-17Window.xaml - Окна для выполнения практических задач. Есть доступ к выбору необходимого задания и вывод результата его решения. Реализован с помощью Switch case для переключения между заданиями SolveTask.
 
+https://github.com/romamaslov200/Individual/invitations
