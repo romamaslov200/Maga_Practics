@@ -1,0 +1,48 @@
+﻿<Window x:Class="App_Practice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:App_Practice"
+        Title="Выбор практической работы" Height="400" Width="500"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel VerticalAlignment="Top"  HorizontalAlignment="Center">
+            <TextBlock Text="Родиков С.К Панфилов А.Д. Маслов Р.А. - П23-2.1" 
+                       FontSize="16" Margin="0,0,0,20"/>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Выберите практическую работу:" 
+                       FontSize="16" Margin="0,0,0,20"/>
+
+            <Button Content="Практическая работа №12" 
+                    Width="200" Margin="0,5" Padding="10,5"
+                    Click="Practice12_Click"/>
+
+            <Button Content="Практическая работа №13" 
+                    Width="200" Margin="0,5" Padding="10,5"
+                    Click="Practice13_Click"/>
+
+            <Button Content="Практическая работа №14" 
+                    Width="200" Margin="0,5" Padding="10,5"
+                    Click="Practice14_Click"/>
+            
+            <Button Content="Практическая работа №15" 
+                    Width="200" Margin="0,5" Padding="10,5"
+                    Click="Practice15_Click"/>
+
+            <Button Content="Практическая работа №16" 
+                    Width="200" Margin="0,5" Padding="10,5"
+                    Click="Practice16_Click"/>
+
+            <Button Content="Практическая работа №17" 
+                    Width="200" Margin="0,5" Padding="10,5"
+                    Click="Practice17_Click"/>
+
+            <Button Content="Практическая работа №18" 
+                    Width="200" Margin="0,5" Padding="10,5"
+                    Click="Practice18_Click"/>
+            
+        </StackPanel>
+    </Grid>
+</Window>
